@@ -17,7 +17,7 @@ body {
 
 #main-left {
     grid-column: 1 / 2;
-    background-color: #fafafa;
+    background-color: #f0f9ff;
 }
 
 #quicklink-container {
@@ -45,9 +45,11 @@ body {
 }
 
 #content {
+    width: 100%;
     flex: 3;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 #card-box {
@@ -111,6 +113,7 @@ body {
 
 #icon-microphone , #icon-speaking{
     font-size: 4em;
+    color: #fff;
 }
 
 #microphone-btn {
@@ -118,6 +121,7 @@ body {
     cursor: pointer;
     border: none;
     border-radius: 50%;
+    background-color: #22c55e;
 }
 
 #microphone-btn:hover {
@@ -139,4 +143,36 @@ body {
     width: 10px;
     margin-right: 8px;
 }
-  
+
+div#messages {
+    padding: 12px;
+    background: #f0fdfa;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+    overflow-y: scroll;
+    max-height: 60vh;
+    width: 90%;
+    border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+div.msg {
+    background-color: #14b8a6;
+    color: #fff;
+    padding:6px;
+    margin:14px;
+    
+    border: 2px solid #fff;
+    border-radius: 12px;
+    font-size: large;
+    width: fit-content;
+    overflow: clip;
+}
+
+button#send-btn {
+    background: #22c55e;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    color: #fff;
+}
