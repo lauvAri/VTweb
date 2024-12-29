@@ -15,9 +15,9 @@ let times = null;
 // 实例化迅飞语音听写（流式版）WebAPI
 
 const xfVoice = new XfVoiceDictation({
-    APPID: 'f9dea650',
-    APISecret: 'NTllYWYxMjE0YTNjYzFmZWRkMzFlMjQx',
-    APIKey: '403447d8ea5c9d2c462e10152eb7ce85',
+    APPID: '',
+    APISecret: '',
+    APIKey: '',
     
     // webSocket请求地址 非必传参数，默认为：wss://iat-api.xfyun.cn/v2/iat
     // url: '',
