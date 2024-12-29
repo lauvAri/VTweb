@@ -5,7 +5,7 @@
 ## 使用
 
 1. 申请迅飞语音听写（流式版）WebAPI
-2. 修改`/src/script.js`下的APPID: 'f9dea650', APISecret, APIKey,
+2. 修改`/src/script.js`下的APPID, APISecret, APIKey,
 
 ## 构建项目
 
