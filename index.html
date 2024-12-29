@@ -137,7 +137,7 @@
             let msg = `<div class="msg">${event.data}</div>`
             $messages.append(msg)
                      .animate({
-                        scrollTop: $messages.scrollHeight - $messages.innerHeight()
+                        scrollTop: $messages[0].scrollHeight - $messages[0].clientHeight
                      }, 'slow');
             console.log(msg)
             if (event.data === '操作完成') {
